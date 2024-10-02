@@ -58,7 +58,7 @@ This is a simple assignment tracker website designed for personal use to help yo
 
 ## License
 
-© [Your Name] 2023
+© PAMMI SIVAKUMAR 2023
 
 **Personal Use License**
 
@@ -77,5 +77,3 @@ This project is licensed for personal use only. You are permitted to use, modify
 By using this project, you agree to the terms outlined in this license.
 
 ---
-
-Feel free to replace `[Your Name]` with your actual name to personalize the license. If you have any questions or need further assistance with customization, please let me know!

@@ -2,24 +2,19 @@
 
 /* Root Variables for Light Mode */
 :root {
-    --background-color: #ffffff;
-    --text-color: #000000;
-    --table-header-bg: #f2f2f2;
-    --table-row-bg: #fff;
-    --table-row-alt-bg: #f9f9f9;
-    --button-bg: #e0e0e0;
-    --button-text-color: #000;
+    --background-color: #263238;
+    --text-color: #ddd;
+    --link-color: #90A4AE;
+    --hover-link-color: purple;
+    --active-link-color: red;
 }
 
-/* Dark Mode Variables */
-body.dark-mode {
-    --background-color: #121212;
-    --text-color: #ffffff;
-    --table-header-bg: #1e1e1e;
-    --table-row-bg: #1a1a1a;
-    --table-row-alt-bg: #2a2a2a;
-    --button-bg: #2e2e2e;
-    --button-text-color: #fff;
+body.light-mode {
+    --background-color: #ddd;
+    --text-color: #333;
+    --link-color: #90A4AE;
+    --hover-link-color: purple;
+    --active-link-color: red;
 }
 
 body {
@@ -40,7 +35,8 @@ h1 {
     margin-top: 20px;
 }
 
-#assignment-table th, #assignment-table td {
+#assignment-table th,
+#assignment-table td {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
@@ -73,19 +69,17 @@ h1 {
     font-weight: bold;
 }
 
-/* Dark Mode Toggle Button Styles */
 .mode-toggle {
     display: block;
-    margin: 0 auto 20px auto;
-    padding: 10px 20px;
-    background-color: var(--button-bg);
-    color: var(--button-text-color);
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #ccc;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
+    border-radius: 5px;
 }
 
 .mode-toggle:hover {
-    opacity: 0.8;
+    background-color: #888;
 }
